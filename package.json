@@ -1,0 +1,31 @@
+{
+  "name": "jwt-based-authentication-and-authorization-in-nodejs",
+  "version": "1.0.0",
+  "description": "A basic project to understand token-based authentication and authorization in Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temiogundeji/jwt-based-authentication-and-authorization-in-nodejs.git"
+  },
+  "keywords": [
+    "jwt",
+    "nodejs",
+    "express"
+  ],
+  "author": "temiogundeji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Temiogundeji/jwt-based-authentication-and-authorization-in-nodejs/issues"
+  },
+  "homepage": "https://github.com/Temiogundeji/jwt-based-authentication-and-authorization-in-nodejs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2"
+  }
+}
