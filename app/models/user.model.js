@@ -12,6 +12,12 @@ const User = mongoose.model(
         ref: "Role",
       },
     ],
+    refreshToken: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "RefreshToken",
+      },
+    ],
   })
 );
 
